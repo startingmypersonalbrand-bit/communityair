@@ -159,6 +159,20 @@ export const books: Book[] = [
     amazonUrl:
       "https://www.amazon.com/Divorce-Freida-McFadden/dp/1464249636/ref=zg_bsnr_g_books_d_sccl_10/138-9474442-3677029?psc=1",
   },
+  {
+    id: "sunsets-of-tulum",
+    title: "Sunsets of Tulum",
+    author: "Raymond Avery Bartlett",
+    category: "Travel Fiction",
+    rating: 4.5,
+    description:
+      "A destination-fiction novel from the creator of TripSquee. Sunsets of Tulum weaves travel, romance, and self-discovery along the shores of Mexico's Riviera Maya.",
+    cover: "amber",
+    shelf: "Trending",
+    imageUrl: "https://m.media-amazon.com/images/P/0988939037.01._SCRM_SL500_.jpg",
+    amazonUrl:
+      "https://www.amazon.com/Sunsets-Tulum-Raymond-Avery-Bartlett/dp/0988939037",
+  },
 
   // New Releases
   {
@@ -346,9 +360,23 @@ export interface Episode {
   summary: string;
   cover: CoverVariant;
   listenUrl: string;
+  imageUrl?: string;
 }
 
 export const episodes: Episode[] = [
+  {
+    id: "ep-ray-bartlett",
+    title: "From Travel Writing to Destination Fiction: The Journey of Ray Bartlett and the Story Behind TripSquee",
+    guest: "Ray Bartlett",
+    show: "Community Air Podcast",
+    category: "Travel Writing",
+    duration: "30 min",
+    summary:
+      "Travel writer, novelist, and creator of TripSquee, Ray Bartlett joins us to share his journey from contributing to nearly 200 travel guides to writing destination-fiction novels like Sunsets of Tulum and Celadon. He also opens up about the inspiration behind TripSquee and how his global adventures continue to shape his storytelling.",
+    cover: "amber",
+    listenUrl: "https://drive.google.com/file/d/1U8mXxDzxaWXGM8aZRD3gEcRs5hpDpD28/view?usp=sharing",
+    imageUrl: "/__l5e/assets-v1/0d3209a5-2dae-4b78-9137-5e0b30d71a36/ray-bartlett.jpg",
+  },
   {
     id: "ep-152",
     title: "History Through Fiction",
