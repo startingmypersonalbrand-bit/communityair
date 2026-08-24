@@ -375,7 +375,7 @@ export const episodes: Episode[] = [
       "Travel writer, novelist, and creator of TripSquee, Ray Bartlett joins us to share his journey from contributing to nearly 200 travel guides to writing destination-fiction novels like Sunsets of Tulum and Celadon. He also opens up about the inspiration behind TripSquee and how his global adventures continue to shape his storytelling.",
     cover: "amber",
     listenUrl: "https://drive.google.com/file/d/1U8mXxDzxaWXGM8aZRD3gEcRs5hpDpD28/view?usp=sharing",
-    imageUrl: "/__l5e/assets-v1/0d3209a5-2dae-4b78-9137-5e0b30d71a36/ray-bartlett.jpg",
+    imageUrl: "https://raw.githubusercontent.com/startingmypersonalbrand-bit/communityair/d6d936d676f71631086a5302cc7e125ad0701748/src/assets/ray-bartlett.jpg",
   },
   {
     id: "ep-152",
