@@ -4,7 +4,6 @@ import authorSofia from "@/assets/author-sofia.jpg";
 import authorArjun from "@/assets/author-arjun.jpg";
 import authorClaire from "@/assets/author-claire.jpg";
 import authorDiego from "@/assets/author-diego.jpg";
-import raybartlett from "@/assets/ray-bartlett.jpg";
 
 export interface Author {
   id: string;
